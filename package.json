@@ -1,0 +1,38 @@
+{
+  "name": "typescript-project-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/b1.ts",
+  "scripts": {
+    "dev:b1": "nodemon --exec ts-node src/b1.ts",
+    "dev:b2": "nodemon --exec ts-node src/b2.ts",
+    "dev:b3": "nodemon --exec ts-node src/b3.ts",
+    "dev:b4": "nodemon --exec ts-node src/b4.ts",
+    "dev:b5": "nodemon --exec ts-node src/b5.ts",
+    "dev:b6": "nodemon --exec ts-node src/b6.ts",
+    "dev:b7": "nodemon --exec ts-node src/b7.ts",
+    "dev:b8": "nodemon --exec ts-node src/b8.ts",
+    "dev:b9": "nodemon --exec ts-node src/b9.ts",
+    "dev:b10": "nodemon --exec ts-node src/b10.ts",
+
+    "build": "tsc",
+    "start:b1": "node dist/b1.js",
+    "start:b2": "node dist/b2.js",
+    "start:b3": "node dist/b3.js",
+    "start:b4": "node dist/b4.js",
+    "start:b5": "node dist/b5.js",
+    "start:b6": "node dist/b6.js",
+    "start:b7": "node dist/b7.js",
+    "start:b8": "node dist/b8.js",
+    "start:b9": "node dist/b9.js",
+    "start:b10": "node dist/b10.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
