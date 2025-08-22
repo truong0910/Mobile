@@ -15,7 +15,6 @@ class Account {
             console.log("Deposit amount must be positive!");
         }
     }
-    // Phương thức rút tiền
     withdraw(amount) {
         if (amount > 0 && amount <= this.balance) {
             this.balance -= amount;
@@ -30,10 +29,9 @@ class Account {
         return this.balance;
     }
 }
-// Test thử
 const acc1 = new Account("12345", "Alice", 500);
 console.log(`Owner: ${acc1.owner}`);
 console.log(`Account Number: ${acc1.accountNumber}`);
 acc1.deposit(200);
 acc1.withdraw(100);
-console.log(`Final Balance: ${acc1.getBalance()}`); // 600
+console.log(`Final Balance: ${acc1.getBalance()}`);
